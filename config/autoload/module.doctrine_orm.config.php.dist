@@ -7,6 +7,7 @@
   * to be used with a standard Doctrine ORM setup. If you have something more advanced
   * you may override the Zend\Di configuration manually (see module.config.php).
   */
+
 $settings = array(
     // if disabled will not register annotations
     'use_annotations' => true,
@@ -23,7 +24,7 @@ $settings = array(
     // only used if cache is set to memcache
     'memcache' => array( 
         'host' => '127.0.0.1',
-        'port' => '11211'
+        'port' => '3306'
     ),
    
     // connection parameters
